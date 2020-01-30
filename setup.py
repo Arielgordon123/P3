@@ -32,7 +32,7 @@ setup(
     packages=find_packages(where='src'),  # Required
     python_requires='>=3.5',
     dependency_links=[
-        'https://github.com/Arielgordon123/P1/releases/download/v0.0.7/P2-0.0.7-py3-none-any.whl'
+        'https://github.com/Arielgordon123/P2/releases/download/v0.0.8/P2-0.0.8-py3-none-any.whl'
     ],
     entry_points={  # Optional
         'console_scripts': [
