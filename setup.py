@@ -13,7 +13,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='P3',  # Required
-    version='0.0.1',  # Required
+    version='0.0.2',  # Required
     description='A sample P3',  # Optional
     long_description=long_description,  # Optional
     long_description_content_type='text/markdown',  # Optional (see note above)
@@ -32,7 +32,7 @@ setup(
     packages=find_packages(where='src'),  # Required
     python_requires='>=3.5',
     dependency_links=[
-        '/home/ariel/Documents/devops/python/P2/dist/P2-0.0.7-py3-none-any.whl'
+        'https://github.com/Arielgordon123/P1/releases/download/v0.0.7/P2-0.0.7-py3-none-any.whl'
     ],
     entry_points={  # Optional
         'console_scripts': [
