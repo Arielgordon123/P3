@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+p2 = {path = "/home/ariel/Documents/devops/python/P2/dist/P2-0.0.7-py3-none-any.whl"}
+p1 = {path = "/home/ariel/Documents/devops/python/P1/dist/P1-0.0.6-py3-none-any.whl"}
+
+[requires]
+python_version = "3.7"
